@@ -4110,6 +4110,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Acts.SetVar,
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.TiledBg.Acts.Destroy,
+		C3.Plugins.Sprite.Acts.SetScale,
 		C3.Plugins.Sprite.Acts.SetOpacity,
 		C3.Plugins.Sprite.Acts.SetSize,
 		C3.Plugins.Sprite.Acts.SetVisible,
@@ -4310,6 +4311,7 @@ function or(l, r)
 
 self.C3_ExpressionFuncs = [
 		() => "play",
+		() => 0.75,
 		() => 25,
 		() => 0,
 		p => {
